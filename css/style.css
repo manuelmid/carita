@@ -116,3 +116,52 @@ h2 {
     margin-top: 5%;
     margin-left: 20%;
 }
+
+#cuerpo {
+    color: yellow;
+    width: 200px;
+    height: 400px;
+    border: 3px solid black; 
+    border-radius: 52px;
+    background: white;
+    margin: 0 auto;    
+}
+
+#brazo-izquierdo {
+    width: 200px;
+    height: 60px;
+    background: white;
+    margin-left: -80%;
+    transform: rotate(150deg);
+    margin-top: 50px;
+    border-right-style: solid;
+    border-right-color: black; 
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+    border-top-style: solid;
+    border-top-color: black;
+ 
+}
+
+#brazo-derecho {
+    width: 200px;
+    height: 60px;
+    background: white;
+    margin-left: 75%;
+    transform: rotate(45deg);
+    margin-top: -50px;
+    border-right-style: solid;
+    border-right-color: black; 
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+    border-top-style: solid;
+    border-top-color: black;
+ 
+
+ 
+}
+
