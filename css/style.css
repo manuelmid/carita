@@ -1,0 +1,118 @@
+/*
+#page-title {
+    
+text-align: center;    
+    
+}
+
+#picture-container {
+
+width: 400px;
+height: 400px;
+margin: 0 auto;
+background: black;
+padding: 30px;
+border: 3px solid red;
+  
+}
+
+img#img {
+    border: 3px solid red;
+    border-radius: 5px;
+}
+
+#picture-css {
+    width: 1400px;
+    height: 650px;
+    background-image: url(../img/images2.png);
+    margin: 0 auto;
+}
+*/
+
+body {
+    background: red; 
+    
+}
+
+#cara {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;  
+    border-radius: 100px;
+    background: white; 
+}
+
+#cara:hover {
+    background-color: #ffeb3b;   
+}
+
+#ojo-1:hover{
+    background: red;
+}
+
+
+#ojo-1 {
+    position: relative;
+    left: 20%;
+    top: 17%;    
+}
+
+#ojo-1 { 
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;  
+    border-radius: 100%;
+    background: blue;
+}
+
+#ojo-2:hover{
+    background: green;
+}
+
+#ojo-2 {
+    position: relative;
+    left: 65%;
+    top: -12%;  
+}
+
+#ojo-2 {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;  
+    border-radius: 100%;
+    background: blue;   
+}
+
+#boca:hover{
+    background: greenyellow;
+}
+
+#boca{
+    position: relative;
+    left: 25%;
+}
+
+
+#boca {
+    width: 100px;
+    height: 20px;
+    border: 3px solid black;  
+    border-radius: 100%;
+    background: white; 
+}
+
+#con1{
+    /*position: relative;*/
+    margin: 0 auto;
+    color: yellow;
+    width: 400px;
+    height: 60px;
+    border: 4px solid black; 
+    background: red;  
+}
+
+h2 {
+    margin-top: 5%;
+    margin-left: 20%;
+}
