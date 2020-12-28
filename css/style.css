@@ -44,11 +44,11 @@ body {
 }
 
 #cara:hover {
-    background-color: #ffeb3b;   
+    background-color: #c5521c;   
 }
 
 #ojo-1:hover{
-    background: red;
+    background: #c5521c;
 }
 
 
@@ -63,7 +63,7 @@ body {
     height: 30px;
     border: 3px solid black;  
     border-radius: 100%;
-    background: blue;
+    background: #47635c;
 }
 
 #ojo-2:hover{
@@ -81,11 +81,11 @@ body {
     height: 30px;
     border: 3px solid black;  
     border-radius: 100%;
-    background: blue;   
+    background: #47635c;   
 }
 
 #boca:hover{
-    background: greenyellow;
+    background: white;
 }
 
 #boca{
@@ -99,7 +99,7 @@ body {
     height: 20px;
     border: 3px solid black;  
     border-radius: 100%;
-    background: white; 
+    background: #c5521c; 
 }
 
 #con1{
@@ -115,6 +115,10 @@ body {
 h2 {
     margin-top: 5%;
     margin-left: 20%;
+}
+
+#cuerpo:hover {
+    background-color: #47635c;
 }
 
 #cuerpo {
@@ -165,3 +169,27 @@ h2 {
  
 }
 
+.fondo {
+    background: linear-gradient(301deg, #47635c, #c5521c);
+    background-size: 400% 400%;
+
+    -webkit-animation: fondo-para-carita 7s ease infinite;
+    -moz-animation: fondo-para-carita 7s ease infinite;
+    animation: fondo-para-carita 7s ease infinite;
+}
+
+@-webkit-keyframes fondo-para-carita {
+    0%{background-position:0% 2%}
+    50%{background-position:100% 99%}
+    100%{background-position:0% 2%}
+}
+@-moz-keyframes fondo-para-carita {
+    0%{background-position:0% 2%}
+    50%{background-position:100% 99%}
+    100%{background-position:0% 2%}
+}
+@keyframes fondo-para-carita {
+    0%{background-position:0% 2%}
+    50%{background-position:100% 99%}
+    100%{background-position:0% 2%}
+}
