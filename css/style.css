@@ -39,11 +39,11 @@ img#img {
 }
 
 #cara:hover {
-    background-color: #c5521c;   
+    background-color: #00bcd4;   
 }
 
 #ojo-izquierdo:hover{
-    background: #c5521c;
+    background: #00bcd4;
 }
 
 
@@ -56,11 +56,11 @@ img#img {
     height: 30px;
     border: 3px solid black;  
     border-radius: 100%;
-    background: #47635c;
+    background: #ffe92b;
 }
 
 #ojo-derecho:hover{
-    background: green;
+    background: #00bcd4;
 }
 
 #ojo-derecho {
@@ -71,12 +71,12 @@ img#img {
     height: 30px;
     border: 3px solid black;  
     border-radius: 100%;
-    background: #47635c;   
+    background: #ffe92b;   
 }
 
 
 #boca:hover{
-    background: white;
+    background: #00bcd4;
 }
 
 #boca{
@@ -87,7 +87,7 @@ img#img {
     height: 20px;
     border: 3px solid black;  
     border-radius: 100%;
-    background: #47635c; 
+    background: #ffe92b; 
 }
 
 #con1{
@@ -97,7 +97,7 @@ img#img {
     width: 400px;
     height: 60px;
     border: 4px solid black; 
-    background: red;  
+    background: #00bcd4;  
 }
 
 h2 {
@@ -107,7 +107,7 @@ h2 {
 }
 
 #cuerpo:hover {
-    background-color: #47635c;
+    background-color: #00bcd4;
 }
 
 #cuerpo {
@@ -171,13 +171,34 @@ img{
 }
 
 .fondo {
-    background: linear-gradient(301deg, #47635c, #c5521c);
+    background: linear-gradient(301deg, #ffe92b, #00bcd4);
     background-size: 400% 400%;
 
     -webkit-animation: fondo-para-carita 7s ease infinite;
     -moz-animation: fondo-para-carita 7s ease infinite;
     animation: fondo-para-carita 7s ease infinite;
 }
+
+/*
+#pierna-izquierda {
+    width: 200px;
+    height: 60px;
+    background: white;
+    margin-left: 50%;
+    transform: rotate(70deg);
+    margin-top: 10px;
+    border-right-style: solid;
+    border-right-color: black; 
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+    border-top-style: solid;
+    border-top-color: black;
+    
+}
+*/
+
 
 
 
