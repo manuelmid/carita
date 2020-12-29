@@ -29,11 +29,6 @@ img#img {
 }
 */
 
-body {
-    background: red; 
-    
-}
-
 #cara {
     margin: 0 auto;
     width: 200px;
@@ -47,18 +42,16 @@ body {
     background-color: #c5521c;   
 }
 
-#ojo-1:hover{
+#ojo-izquierdo:hover{
     background: #c5521c;
 }
 
 
-#ojo-1 {
+#ojo-izquierdo {
     position: relative;
-    left: 20%;
-    top: 17%;    
-}
-
-#ojo-1 { 
+    margin-block-end: -18%;
+    top: 30px;
+    left: 20%;    
     width: 30px;
     height: 30px;
     border: 3px solid black;  
@@ -66,23 +59,21 @@ body {
     background: #47635c;
 }
 
-#ojo-2:hover{
+#ojo-derecho:hover{
     background: green;
 }
 
-#ojo-2 {
+#ojo-derecho {
     position: relative;
-    left: 65%;
-    top: -12%;  
-}
-
-#ojo-2 {
+    top: 30px;
+    left: 60%;
     width: 30px;
     height: 30px;
     border: 3px solid black;  
     border-radius: 100%;
     background: #47635c;   
 }
+
 
 #boca:hover{
     background: white;
@@ -91,15 +82,12 @@ body {
 #boca{
     position: relative;
     left: 25%;
-}
-
-
-#boca {
+    top: 80px;
     width: 100px;
     height: 20px;
     border: 3px solid black;  
     border-radius: 100%;
-    background: #c5521c; 
+    background: #47635c; 
 }
 
 #con1{
@@ -113,8 +101,9 @@ body {
 }
 
 h2 {
-    margin-top: 5%;
-    margin-left: 20%;
+    
+    text-align: center;
+    
 }
 
 #cuerpo:hover {
@@ -169,6 +158,18 @@ h2 {
  
 }
 
+#brazo-izquierdo:hover{
+    
+    
+}
+
+img{ 
+    width: 100px;
+    display: block;
+    margin: auto; 
+    border: 3px solid black;
+}
+
 .fondo {
     background: linear-gradient(301deg, #47635c, #c5521c);
     background-size: 400% 400%;
@@ -177,6 +178,9 @@ h2 {
     -moz-animation: fondo-para-carita 7s ease infinite;
     animation: fondo-para-carita 7s ease infinite;
 }
+
+
+
 
 @-webkit-keyframes fondo-para-carita {
     0%{background-position:0% 2%}
